@@ -44,7 +44,7 @@ A modern, client-first web application for creating, scanning, and manipulating 
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/qr-studio.git
+git clone https://github.com/th4phat/qr-studio.git
 cd qr-studio
 
 # Install dependencies
