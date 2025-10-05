@@ -1,0 +1,161 @@
+{
+  "common": {
+    "create": "สร้าง",
+    "scan": "สแกน",
+    "history": "ประวัติ",
+    "settings": "ตั้งค่า",
+    "close": "ปิด",
+    "cancel": "ยกเลิก",
+    "save": "บันทึก",
+    "copy": "คัดลอก",
+    "download": "ดาวน์โหลด",
+    "upload": "อัปโหลด",
+    "clear": "ล้าง",
+    "reset": "รีเซ็ต",
+    "confirm": "ยืนยัน",
+    "loading": "กำลังโหลด...",
+    "error": "ข้อผิดพลาด",
+    "success": "สำเร็จ",
+    "warning": "คำเตือน",
+    "info": "ข้อมูล"
+  },
+  "navigation": {
+    "create_qr": "สร้าง QR",
+    "scan_qr": "สแกน QR",
+    "history": "ประวัติ",
+    "language": "ภาษา"
+  },
+  "create": {
+    "title": "สร้าง QR โค้ด",
+    "simple_mode": "โหมดง่าย",
+    "advanced_mode": "โหมดขั้นสูง",
+    "text_input_placeholder": "ป้อนข้อมูลที่นี่...",
+    "generate": "สร้าง",
+    "presets": {
+      "title": "แม่แบบ",
+      "url": "URL",
+      "text": "ข้อความ",
+      "wifi": "Wi-Fi",
+      "email": "อีเมล",
+      "phone": "โทรศัพท์",
+      "sms": "SMS",
+      "vcard": "นามบัตร (vCard)"
+    },
+    "options": {
+      "error_correction": "การแก้ไขข้อผิดพลาด",
+      "version": "เวอร์ชัน",
+      "size": "ขนาด",
+      "margin": "ระยะขอบ",
+      "colors": "สี",
+      "foreground": "สีพื้นหน้า",
+      "background": "สีพื้นหลัง",
+      "rounded_modules": "โมดูลโค้งมน",
+      "eye_style": "รูปแบบดวงตา",
+      "logo": "โลโก้",
+      "upload_logo": "อัปโหลดโลโก้",
+      "dimensions": "มิติ",
+      "low": "ต่ำ",
+      "medium": "ปานกลาง",
+      "quartile": "ควอร์ไทล์",
+      "high": "สูง"
+    },
+    "export": {
+      "title": "ส่งออก",
+      "png": "PNG",
+      "svg": "SVG",
+      "copy_to_clipboard": "คัดลอกไปยังคลิปบอร์ด"
+    },
+    "camera_scanner": {
+      "no_camera_available": "ไม่พบกล้อง",
+      "failed_to_start_camera": "ไม่สามารถเริ่มกล้องได้"
+    }
+  },
+  "info": {
+    "title": "ข้อมูล QR",
+    "data_length": "ความยาวข้อมูล",
+    "chars": "ตัวอักษร",
+    "ready_to_download": "พร้อมดาวน์โหลด"
+  },
+  "quick_actions": {
+    "title": "การดำเนินการเร็ว",
+    "copy_text": "คัดลอกข้อความ",
+    "reset_all": "รีเซ็ตทั้งหมด"
+  },
+  "scan_page": {
+    "description": "สแกน QR โค้ดจากไฟล์ คลิปบอร์ด หรือกล้อง"
+  },
+  "scan": {
+    "title": "สแกน QR โค้ด",
+    "methods": {
+      "camera": "กล้อง",
+      "file": "ไฟล์",
+      "clipboard": "คลิปบอร์ด"
+    },
+    "camera": {
+      "start_camera": "เริ่มกล้อง",
+      "stop_camera": "หยุดกล้อง",
+      "switch_camera": "สลับกล้อง",
+      "torch": "ไฟฉาย",
+      "continuous_scan": "สแกนต่อเนื่อง",
+      "single_scan": "สแกนครั้งเดียว",
+      "camera_permission_denied": "ไม่ได้รับอนุญาตให้เข้าถึงกล้อง",
+      "camera_not_available": "ไม่พบกล้อง"
+    },
+    "file": {
+      "drag_drop": "ลากและวางไฟล์ที่นี่",
+      "select_file": "เลือกไฟล์",
+      "supported_formats": "รูปแบบที่รองรับ"
+    },
+    "clipboard": {
+      "paste_image": "วางรูปภาพ",
+      "paste_instructions": "วางรูปภาพจากคลิปบอร์ดของคุณ",
+      "no_image_in_clipboard": "ไม่มีรูปภาพในคลิปบอร์ด"
+    },
+    "results": {
+      "no_results": "ไม่พบผลลัพธ์",
+      "found_codes": "พบรหัส QR",
+      "data": "ข้อมูล",
+      "type": "ประเภท",
+      "timestamp": "เวลาที่สแกน",
+      "actions": "การดำเนินการ",
+      "open": "เปิด",
+      "copy_data": "คัดลอกข้อมูล",
+      "save_to_history": "บันทึกลงในประวัติ"
+    }
+  },
+  "history": {
+    "title": "ประวัติ",
+    "empty": "ไม่มีรายการในประวัติ",
+    "clear_all": "ล้างทั้งหมด",
+    "created": "ที่สร้าง",
+    "scanned": "ที่สแกน",
+    "items": "รายการ",
+    "search_placeholder": "ค้นหา..."
+  },
+  "history_page": {
+    "description": "ดูและจัดการประวัติ QR โค้ดของคุณ",
+    "export": "ส่งออก",
+    "clear_all": "ล้างทั้งหมด",
+    "all": "ทั้งหมด",
+    "no_items_found": "ไม่พบรายการในประวัติ",
+    "loading_history": "กำลังโหลดประวัติ...",
+    "view_full_content": "ดูเนื้อหาทั้งหมด",
+    "confirm_delete": "ยืนยันการลบ",
+    "delete_warning": "คุณแน่ใจหรือไม่ว่าต้องการลบรายการนี้? การดำเนินการนี้ไม่สามารถยกเลิกได้"
+  },
+  "errors": {
+    "invalid_qr_data": "ข้อมูล QR ไม่ถูกต้อง",
+    "generation_failed": "สร้าง QR โค้ดล้มเหลว",
+    "scan_failed": "สแกนล้มเหลว",
+    "file_not_supported": "ไฟล์ไม่รองรับ",
+    "network_error": "ข้อผิดพลาดเครือข่าย",
+    "unknown_error": "ข้อผิดพลาดที่ไม่ทราบสาเหตุ"
+  },
+  "success": {
+    "qr_generated": "สร้าง QR โค้ดสำเร็จ",
+    "qr_scanned": "สแกน QR โค้ดสำเร็จ",
+    "copied_to_clipboard": "คัดลอกไปยังคลิปบอร์ดแล้ว",
+    "saved_to_history": "บันทึกลงในประวัติแล้ว",
+    "exported": "ส่งออกสำเร็จ"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "common": {
+    "create": "Create",
+    "scan": "Scan",
+    "history": "History",
+    "settings": "Settings",
+    "close": "Close",
+    "cancel": "Cancel",
+    "save": "Save",
+    "copy": "Copy",
+    "download": "Download",
+    "upload": "Upload",
+    "clear": "Clear",
+    "reset": "Reset",
+    "confirm": "Confirm",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information"
+  },
+  "navigation": {
+    "create_qr": "Create QR",
+    "scan_qr": "Scan QR",
+    "history": "History",
+    "language": "Language"
+  },
+  "create": {
+    "title": "Create QR Code",
+    "simple_mode": "Simple Mode",
+    "advanced_mode": "Advanced Mode",
+    "text_input_placeholder": "Enter text or URL...",
+    "generate": "Generate QR",
+    "presets": {
+      "title": "Presets",
+      "url": "URL",
+      "text": "Text",
+      "wifi": "WiFi",
+      "email": "Email",
+      "phone": "Phone",
+      "sms": "SMS",
+      "vcard": "vCard"
+    },
+    "options": {
+      "error_correction": "Error Correction",
+      "version": "Version",
+      "size": "Size",
+      "margin": "Margin",
+      "colors": "Colors",
+      "foreground": "Foreground",
+      "background": "Background",
+      "rounded_modules": "Rounded Modules",
+      "eye_style": "Eye Style",
+      "logo": "Logo",
+      "upload_logo": "Upload Logo",
+      "dimensions": "Dimensions",
+      "low": "Low",
+      "medium": "Medium",
+      "quartile": "Quartile",
+      "high": "High"
+    },
+    "export": {
+      "title": "Export",
+      "png": "PNG",
+      "svg": "SVG",
+      "copy_to_clipboard": "Copy to Clipboard"
+    },
+    "camera_scanner": {
+      "no_camera_available": "No camera available",
+      "failed_to_start_camera": "Failed to start camera"
+    }
+  },
+  "info": {
+    "title": "QR Info",
+    "data_length": "Data Length",
+    "chars": "chars",
+    "ready_to_download": "Ready to download"
+  },
+  "quick_actions": {
+    "title": "Quick Actions",
+    "copy_text": "Copy Text",
+    "reset_all": "Reset All"
+  },
+  "scan_page": {
+    "description": "Scan QR codes from files, clipboard, or camera"
+  },
+  "scan": {
+    "title": "Scan QR Code",
+    "methods": {
+      "camera": "Camera",
+      "file": "File",
+      "clipboard": "Clipboard"
+    },
+    "camera": {
+      "start_camera": "Start Camera",
+      "stop_camera": "Stop Camera",
+      "switch_camera": "Switch Camera",
+      "torch": "Flashlight",
+      "continuous_scan": "Continuous Scan",
+      "single_scan": "Single Scan",
+      "camera_permission_denied": "Camera permission denied",
+      "camera_not_available": "Camera not available"
+    },
+    "file": {
+      "drag_drop": "Drag and drop an image here or click to select",
+      "select_file": "Select File",
+      "supported_formats": "Supported formats: PNG, JPG, JPEG, GIF, BMP"
+    },
+    "clipboard": {
+      "paste_image": "Paste image from clipboard",
+      "paste_instructions": "Press Ctrl+V (or Cmd+V) to paste an image",
+      "no_image_in_clipboard": "No image found in clipboard"
+    },
+    "results": {
+      "no_results": "No QR codes found",
+      "found_codes": "Found {{count}} QR code(s)",
+      "data": "Data",
+      "type": "Type",
+      "timestamp": "Timestamp",
+      "actions": "Actions",
+      "open": "Open",
+      "copy_data": "Copy Data",
+      "save_to_history": "Save to History"
+    }
+  },
+  "history": {
+    "title": "History",
+    "empty": "No history yet",
+    "clear_all": "Clear All",
+    "created": "Created",
+    "scanned": "Scanned",
+    "items": "{{count}} items",
+    "search_placeholder": "Search history..."
+  },
+  "history_page": {
+    "description": "View and manage your QR code history",
+    "export": "Export",
+    "clear_all": "Clear All",
+    "all": "All",
+    "no_items_found": "No history items found",
+    "loading_history": "Loading history...",
+    "view_full_content": "View full content",
+    "confirm_delete": "Confirm Delete",
+    "delete_warning": "Are you sure you want to delete this item? This action cannot be undone."
+  },
+  "errors": {
+    "invalid_qr_data": "Invalid QR code data",
+    "generation_failed": "Failed to generate QR code",
+    "scan_failed": "Failed to scan QR code",
+    "file_not_supported": "File format not supported",
+    "network_error": "Network error",
+    "unknown_error": "Unknown error occurred"
+  },
+  "success": {
+    "qr_generated": "QR code generated successfully",
+    "qr_scanned": "QR code scanned successfully",
+    "copied_to_clipboard": "Copied to clipboard",
+    "saved_to_history": "Saved to history",
+    "exported": "Exported successfully"
+  }
+}
