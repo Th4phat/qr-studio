@@ -7,6 +7,7 @@ export default defineConfig({
     tailwindcss(),
     solidPlugin(),
   ],
+  
   build: {
     target: 'esnext',
   },

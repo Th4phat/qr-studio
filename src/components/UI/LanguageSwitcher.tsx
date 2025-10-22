@@ -29,7 +29,7 @@ export default function LanguageSwitcher(props: LanguageSwitcherProps) {
       <div class={`relative ${props.class || ''}`}>
         <button
           onClick={toggleDropdown}
-          class="flex items-center space-x-1 p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+          class="flex items-center space-x-1 p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-400 transition-colors"
           aria-label={t('navigation.language')}
         >
           <span class="text-lg">{locales[currentLocale()].flag}</span>

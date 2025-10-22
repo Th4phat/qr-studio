@@ -97,13 +97,6 @@ QR Studio is built with a mobile-first approach and includes:
 - **Local Storage**: Uses IndexedDB for reliable offline storage
 - **Secure Context**: Requires HTTPS for camera and clipboard access
 
-## 🌐 Internationalization
-
-The app supports multiple languages with easy switching:
-- English (default)
-- [Add your language here]
-- Simple translation system using Solid primitives
-
 ## 🚀 Building for Production
 
 ```bash
@@ -118,21 +111,6 @@ npm run preview
 bun run preview
 ```
 
-## 🧪 Testing
-
-```bash
-# Run tests (if implemented)
-npm test
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -143,13 +121,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
 - [qrcode](https://www.npmjs.com/package/qrcode) and [qr-scanner](https://www.npmjs.com/package/qr-scanner) for the core QR code functionality
 - [localForage](https://localforage.github.io/localForage/) for offline storage
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-- Open an [issue](https://github.com/your-username/qr-studio/issues)
-- Check the [documentation](docs/)
-- Join our [community discussions](https://github.com/your-username/qr-studio/discussions)
 
 ---
 
