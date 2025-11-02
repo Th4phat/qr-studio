@@ -4,6 +4,7 @@ import { PresetSelector } from './PresetSelector';
 import { ErrorCorrectionSelector } from './ErrorCorrectionSelector';
 import { DimensionsControls } from './DimensionsControls';
 import { ColorsControls } from './ColorsControls';
+import { LogoControls } from './LogoControls';
 import { t } from '../../stores/i18n';
 
 interface CreatorAdvancedProps {
@@ -48,9 +49,14 @@ export const CreatorAdvanced: Component<CreatorAdvancedProps> = (props) => {
         onConfigChange={props.onConfigChange} 
       />
 
-      <ColorsControls 
-        config={props.config} 
-        onConfigChange={props.onConfigChange} 
+      <ColorsControls
+        config={props.config}
+        onConfigChange={props.onConfigChange}
+      />
+
+      <LogoControls
+        config={props.config}
+        onConfigChange={props.onConfigChange}
       />
     </div>
   );
